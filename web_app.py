@@ -8,7 +8,7 @@ import plotly.express as px
 from dash.exceptions import PreventUpdate
 
 # Your Mapbox token 
-px.set_mapbox_access_token('pk.eyJ1IjoibWlya29zbSIsImEiOiJjbDBjd2I4bG8wM2J3M2htdXFxdDBmcDAyIn0.Zds7BTRxavj0D-tueWGekg')
+px.set_mapbox_access_token('')
 
 # Load the dataset
 df = pd.read_csv('hwo_data_1223.csv')
